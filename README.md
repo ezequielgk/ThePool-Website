@@ -51,8 +51,8 @@ Sitio web moderno y responsive ThePool Graphic Designer Made by [Arsbyte](https:
 
 1. **Clona el repositorio**
    ```bash
-   git clone https://github.com/Trinity-LA/Trinity-Website.git
-   cd Trinity-Website
+   git clone https://github.com/ezequielgk/ThePool-Website.git
+   cd ThePool-Website
 ``
 
 2. **Inicia un servidor local**
