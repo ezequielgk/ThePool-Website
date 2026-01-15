@@ -12,32 +12,39 @@ Sitio web moderno y responsive ThePool Graphic Designer Made by [Arsbyte](https:
 
 ```
 
-├── assets
-│   ├── avatar-arsbyte.png
-│   ├── avatar-ezequiel.png
-│   ├── image_42ee29.png
-│   ├── image_42eea0.png
-│   ├── image_42eec3.png
-│   ├── image_42f1e5.png
-│   └── image_42f20a.png
-├── css
-│   ├── backgrounds.css
-│   ├── base.css
-│   ├── footer.css
-│   ├── nav.css
-│   ├── responsive.css
-│   ├── slider.css
-│   ├── style.css
-│   └── variables.css
-├── index.html
-└── Js
-    ├── app.js
-    ├── config.js
-    ├── dom.js
-    ├── events.js
-    ├── progress.js
-    └── slider.js
-
+/
+├── assets/
+│   ├── fonts/              # Tipografías locales
+│   ├── img/
+│   │   ├── avatars/        # Agrupación lógica
+│   │   │   ├── arsbyte.png
+│   │   │   └── ezequiel.png
+│   │   └── gallery/        # Nombres descriptivos en lugar de hashes
+│   │       ├── hero-bg.png
+│   │       └── feature-1.png
+│   └── svg/                # Iconos vectoriales
+├── css/
+│   ├── modules/            # Componentes específicos
+│   │   ├── nav.css
+│   │   ├── footer.css
+│   │   └── slider.css
+│   ├── state/              # Cambios de estado
+│   │   ├── responsive.css
+│   │   └── animations.css
+│   ├── base.css            # Reset y tipografía
+│   ├── variables.css       # Design Tokens (colores, spacing)
+│   └── main.css            # Archivo raíz que importa el resto
+├── js/                     # Minúscula para consistencia
+│   ├── components/         # Lógica de UI
+│   │   ├── slider.js
+│   │   └── progress.js
+│   ├── core/               # Lógica de datos/config
+│   │   ├── config.js
+│   │   └── events.js
+│   ├── utils/              # Funciones de ayuda
+│   │   └── dom-tools.js
+│   └── main.js             # Punto de entrada (antes app.js)
+└── index.html
 ```
 
 ## Instalación y desarrollo
